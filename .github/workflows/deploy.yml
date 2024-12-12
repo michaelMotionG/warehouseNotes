@@ -5,6 +5,10 @@ on:
     branches:
       - main  # 确保与您主要开发分支一致
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
