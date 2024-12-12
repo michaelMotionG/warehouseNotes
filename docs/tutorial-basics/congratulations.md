@@ -2,9 +2,9 @@
 sidebar_position: 6
 ---
 
-# Congratulations77!
+# Congratulations87!
 
-You have just l121earned the **basics of Docusaurus** and made some changes to the **initial template**.
+You have just l131earned the **basics of Docusaurus** and made some changes to the **initial template**.
 
 Docusaurus has **much more to offer**!
 
