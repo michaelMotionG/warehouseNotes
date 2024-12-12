@@ -43,7 +43,7 @@ const config: Config = {
           editUrl:
             // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
             // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-            'https://github.com/michaelMotionG/warehouseNotes/tree/main/docs/'
+            'https://github.com/michaelMotionG/warehouseNotes/tree/main/'
             // "https://www.baidu.com"
         },
         blog: {
@@ -56,7 +56,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-            'https://github.com/michaelMotionG/warehouseNotes/tree/main/blog/',
+            'https://github.com/michaelMotionG/warehouseNotes/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
