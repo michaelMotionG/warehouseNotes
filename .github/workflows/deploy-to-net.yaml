@@ -1,0 +1,50 @@
+name: Deploy to Net
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to Deploy'
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.branch }}
+      - name: Login to ACR
+        uses: azure/docker-login@v1
+        with:
+          login-server: ${{ secrets.ACR_LOGIN_SERVER }}
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+      - name: Generate Random String
+        id: random
+        run: echo "::set-output name=random_string::$(openssl rand -hex 3)"
+      - name: Generate New Version
+        id: vars
+        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+      - name: Build & Push Docker Image to ACR
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          tags: 'motiongcloud.azurecr.io/employee-portal-web:${{ steps.vars.outputs.sha_short }}-${{ steps.random.outputs.random_string }}'
+          build-args: |
+            ENVIRONMENT=NET
+      - name: Show New Version Summary
+        run: |
+          SUMMARY=$'# Show Version Summary\n${{ steps.vars.outputs.sha_short }}-${{ steps.random.outputs.random_string }}'
+          echo "$SUMMARY" >> $GITHUB_STEP_SUMMARY
+      - name: Replace image tag in the Deployment file
+        run: |
+          sed -i 's/IMAGE_TAG/${{ steps.vars.outputs.sha_short }}-${{ steps.random.outputs.random_string }}/g' ./k8s/deployment.yaml
+      - name: Deploy to Net
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_NET }}
+        with:
+          args: apply -f ./k8s/deployment.yaml -f ./k8s/service.yaml -n default --insecure-skip-tls-verify=true

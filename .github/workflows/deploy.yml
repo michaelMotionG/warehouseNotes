@@ -3,7 +3,7 @@ name: Deploy Docusaurus site
 on:
   push:
     branches:
-      - main  # 确保与您主要开发分支一致
+      - docusaurusO  # 确保与您主要开发分支一致
 
 jobs:
   build-deploy:

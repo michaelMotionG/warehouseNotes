@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "当前",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Inner Application": {
+    "message": "内部应用",
+    "description": "The label for category Inner Application in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Lunchpad": {
+    "message": "开发板",
+    "description": "The label for category Lunchpad in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Everything About Motion G": {
+    "message": "公司信息",
+    "description": "The label for category Everything About Motion G in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Future Lab": {
+    "message": "产品与技术",
+    "description": "The label for category Future Lab in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Brain Hive": {
+    "message": "资源中心",
+    "description": "The label for category Brain Hive in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Growth Guide": {
+    "message": "学习与成长",
+    "description": "The label for category Growth Guide in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Welcome Kit": {
+    "message": "新员工指南",
+    "description": "The label for category Welcome Kit in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Collab Center": {
+    "message": "协作中心",
+    "description": "The label for category Collab Center in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Work Navigator": {
+    "message": "操作秘籍",
+    "description": "The label for category Work Navigator in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Production Zone": {
+    "message": "业务系统",
+    "description": "The label for category Production Zone in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Resource Center": {
+    "message": "资源中心",
+    "description": "The label for category Resource Center in sidebar tutorialSidebar"
+  }
+}

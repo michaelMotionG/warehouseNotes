@@ -1,5 +1,5 @@
 {
-  "/warehouseNotes/blog-a96": {
+  "/employee-portal-web/zh-Hans/blog-d41": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "b88131c5"
+    "__props": "9ae0bd19"
   },
-  "/warehouseNotes/blog/archive-ede": {
+  "/employee-portal-web/zh-Hans/blog/archive-9a5": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "e01a814b"
+    "__props": "a431a411"
   },
-  "/warehouseNotes/blog/authors-9ee": {
+  "/employee-portal-web/zh-Hans/blog/authors-75d": {
     "__comp": "621db11d",
     "__context": {
       "data": {
@@ -37,9 +37,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "fbbd80bd"
+    "__props": "9591678f"
   },
-  "/warehouseNotes/blog/authors/all-sebastien-lorber-articles-e26": {
+  "/employee-portal-web/zh-Hans/blog/authors/all-sebastien-lorber-articles-b52": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -59,9 +59,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "91e84dc0"
+    "__props": "2f76f66c"
   },
-  "/warehouseNotes/blog/authors/yangshun-085": {
+  "/employee-portal-web/zh-Hans/blog/authors/yangshun-bfd": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -81,9 +81,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "070ae84c"
+    "__props": "45c9423a"
   },
-  "/warehouseNotes/blog/first-blog-post-dbd": {
+  "/employee-portal-web/zh-Hans/blog/first-blog-post-f44": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -94,7 +94,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/warehouseNotes/blog/long-blog-post-2c5": {
+  "/employee-portal-web/zh-Hans/blog/long-blog-post-7fc": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -105,7 +105,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/warehouseNotes/blog/mdx-blog-post-b79": {
+  "/employee-portal-web/zh-Hans/blog/mdx-blog-post-288": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -116,15 +116,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/warehouseNotes/blog/tags-dc1": {
+  "/employee-portal-web/zh-Hans/blog/tags-6c4": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "59f8fd69"
+    "__props": "777491a1"
   },
-  "/warehouseNotes/blog/tags/docusaurus-117": {
+  "/employee-portal-web/zh-Hans/blog/tags/docusaurus-da4": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -144,9 +144,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "d52995a2"
+    "__props": "743e1f35"
   },
-  "/warehouseNotes/blog/tags/facebook-f8e": {
+  "/employee-portal-web/zh-Hans/blog/tags/facebook-c46": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -157,9 +157,9 @@
         "content": "7661071f"
       }
     ],
-    "__props": "030ba627"
+    "__props": "c97f6c0b"
   },
-  "/warehouseNotes/blog/tags/hello-7d5": {
+  "/employee-portal-web/zh-Hans/blog/tags/hello-b8d": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -173,9 +173,9 @@
         "content": "8717b14a"
       }
     ],
-    "__props": "b94bca50"
+    "__props": "baafff71"
   },
-  "/warehouseNotes/blog/tags/hola-590": {
+  "/employee-portal-web/zh-Hans/blog/tags/hola-1ff": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -186,9 +186,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "21a38d4b"
+    "__props": "044edce8"
   },
-  "/warehouseNotes/blog/welcome-e53": {
+  "/employee-portal-web/zh-Hans/blog/welcome-cdb": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -199,71 +199,216 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/warehouseNotes/markdown-page-65c": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "393be207"
-  },
-  "/warehouseNotes/docs-788": {
+  "/employee-portal-web/zh-Hans/docs-306": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/warehouseNotes/docs-83e": {
+  "/employee-portal-web/zh-Hans/docs-5df": {
     "__comp": "a7bd4aaa",
-    "__props": "705c7ed5"
+    "__props": "347ecb0b"
   },
-  "/warehouseNotes/docs-395": {
+  "/employee-portal-web/zh-Hans/docs-594": {
     "__comp": "a94703ab"
   },
-  "/warehouseNotes/docs/category/tutorial---basics-a94": {
+  "/employee-portal-web/zh-Hans/docs/category/brain-hive-b11": {
     "__comp": "14eb3368",
-    "__props": "e25f51ee"
+    "__props": "fa3b0263"
   },
-  "/warehouseNotes/docs/category/tutorial---extras-a42": {
+  "/employee-portal-web/zh-Hans/docs/category/collab-center-3f1": {
     "__comp": "14eb3368",
-    "__props": "593f5072"
+    "__props": "482a23e8"
   },
-  "/warehouseNotes/docs/intro-c4b": {
+  "/employee-portal-web/zh-Hans/docs/category/everything-about-motion-g-26d": {
+    "__comp": "14eb3368",
+    "__props": "c2302c16"
+  },
+  "/employee-portal-web/zh-Hans/docs/category/future-lab-74f": {
+    "__comp": "14eb3368",
+    "__props": "ca0d361a"
+  },
+  "/employee-portal-web/zh-Hans/docs/category/growth-guide-e50": {
+    "__comp": "14eb3368",
+    "__props": "5accee38"
+  },
+  "/employee-portal-web/zh-Hans/docs/category/inner-application-ac0": {
+    "__comp": "14eb3368",
+    "__props": "d9db36c9"
+  },
+  "/employee-portal-web/zh-Hans/docs/category/lunchpad-ad1": {
+    "__comp": "14eb3368",
+    "__props": "c2d8f787"
+  },
+  "/employee-portal-web/zh-Hans/docs/category/production-zone-a08": {
+    "__comp": "14eb3368",
+    "__props": "6f6535d4"
+  },
+  "/employee-portal-web/zh-Hans/docs/category/resource-center-76b": {
+    "__comp": "14eb3368",
+    "__props": "11eee24f"
+  },
+  "/employee-portal-web/zh-Hans/docs/category/welcome-kit-3ec": {
+    "__comp": "14eb3368",
+    "__props": "af1c74f7"
+  },
+  "/employee-portal-web/zh-Hans/docs/category/work-navigator-014": {
+    "__comp": "14eb3368",
+    "__props": "80e4f81c"
+  },
+  "/employee-portal-web/zh-Hans/docs/collab-center/OAsystem-fed": {
     "__comp": "17896441",
-    "content": "0e384e19"
+    "content": "008b76f9"
   },
-  "/warehouseNotes/docs/tutorial-basics/congratulations-b1a": {
+  "/employee-portal-web/zh-Hans/docs/company-information/BSC-170": {
     "__comp": "17896441",
-    "content": "822bd8ab"
+    "content": "81b717d9"
   },
-  "/warehouseNotes/docs/tutorial-basics/create-a-blog-post-fc4": {
+  "/employee-portal-web/zh-Hans/docs/company-information/company-culture-19a": {
     "__comp": "17896441",
-    "content": "533a09ca"
+    "content": "bcef300f"
   },
-  "/warehouseNotes/docs/tutorial-basics/create-a-document-bba": {
+  "/employee-portal-web/zh-Hans/docs/company-information/introduction-28e": {
     "__comp": "17896441",
-    "content": "1e4232ab"
+    "content": "d37112f4"
   },
-  "/warehouseNotes/docs/tutorial-basics/create-a-page-7b4": {
+  "/employee-portal-web/zh-Hans/docs/company-information/office-tour-f95": {
     "__comp": "17896441",
-    "content": "5c868d36"
+    "content": "9d645764"
   },
-  "/warehouseNotes/docs/tutorial-basics/deploy-your-site-4b2": {
+  "/employee-portal-web/zh-Hans/docs/company-information/organizational-structure-4fa": {
     "__comp": "17896441",
-    "content": "f55d3e7a"
+    "content": "e4a556ec"
   },
-  "/warehouseNotes/docs/tutorial-basics/markdown-features-351": {
+  "/employee-portal-web/zh-Hans/docs/home/notication-397": {
     "__comp": "17896441",
-    "content": "18c41134"
+    "content": "a8bc756a"
   },
-  "/warehouseNotes/docs/tutorial-extras/manage-docs-versions-0db": {
+  "/employee-portal-web/zh-Hans/docs/home/ownVE-949": {
     "__comp": "17896441",
-    "content": "dff1c289"
+    "content": "7bbe0e5e"
   },
-  "/warehouseNotes/docs/tutorial-extras/translate-your-site-ff4": {
+  "/employee-portal-web/zh-Hans/docs/home/privateVE-79f": {
     "__comp": "17896441",
-    "content": "e44a2883"
+    "content": "aebf0772"
   },
-  "/warehouseNotes/-fc4": {
+  "/employee-portal-web/zh-Hans/docs/home/pubilcVE-546": {
+    "__comp": "17896441",
+    "content": "5c1fea6e"
+  },
+  "/employee-portal-web/zh-Hans/docs/inner-application/BMS-cd5": {
+    "__comp": "17896441",
+    "content": "10c846ff"
+  },
+  "/employee-portal-web/zh-Hans/docs/inner-application/employee-portal-management-system-bef": {
+    "__comp": "17896441",
+    "content": "70855441"
+  },
+  "/employee-portal-web/zh-Hans/docs/inner-application/OA-system-418": {
+    "__comp": "17896441",
+    "content": "b6766327"
+  },
+  "/employee-portal-web/zh-Hans/docs/inner-application/Teams-b15": {
+    "__comp": "17896441",
+    "content": "db6a8226"
+  },
+  "/employee-portal-web/zh-Hans/docs/intro-8d0": {
+    "__comp": "17896441",
+    "content": "bd28457a"
+  },
+  "/employee-portal-web/zh-Hans/docs/process-guidelines/Finance-598": {
+    "__comp": "17896441",
+    "content": "7926ecf1"
+  },
+  "/employee-portal-web/zh-Hans/docs/process-guidelines/HR-945": {
+    "__comp": "17896441",
+    "content": "12aae2b7"
+  },
+  "/employee-portal-web/zh-Hans/docs/process-guidelines/IT-3cb": {
+    "__comp": "17896441",
+    "content": "4d2756ea"
+  },
+  "/employee-portal-web/zh-Hans/docs/process-guidelines/process-description-f1c": {
+    "__comp": "17896441",
+    "content": "ab542eca"
+  },
+  "/employee-portal-web/zh-Hans/docs/process-guidelines/safety-compliance-282": {
+    "__comp": "17896441",
+    "content": "94361e00"
+  },
+  "/employee-portal-web/zh-Hans/docs/process-guidelines/template-form-c87": {
+    "__comp": "17896441",
+    "content": "21b6d970"
+  },
+  "/employee-portal-web/zh-Hans/docs/prodection-zone/monitor-6b6": {
+    "__comp": "17896441",
+    "content": "c54f2e7b"
+  },
+  "/employee-portal-web/zh-Hans/docs/prodection-zone/MotionG-707": {
+    "__comp": "17896441",
+    "content": "01f3202c"
+  },
+  "/employee-portal-web/zh-Hans/docs/prodection-zone/pay-240": {
+    "__comp": "17896441",
+    "content": "4bec0cf2"
+  },
+  "/employee-portal-web/zh-Hans/docs/prodection-zone/resik-control-59a": {
+    "__comp": "17896441",
+    "content": "b0ac1c26"
+  },
+  "/employee-portal-web/zh-Hans/docs/product-tech/AI-tools-4e4": {
+    "__comp": "17896441",
+    "content": "562e70a8"
+  },
+  "/employee-portal-web/zh-Hans/docs/product-tech/developer-support-4f0": {
+    "__comp": "17896441",
+    "content": "204a02ab"
+  },
+  "/employee-portal-web/zh-Hans/docs/product-tech/MVP-933": {
+    "__comp": "17896441",
+    "content": "850394c2"
+  },
+  "/employee-portal-web/zh-Hans/docs/product-tech/product-demo-25f": {
+    "__comp": "17896441",
+    "content": "e6f86dc2"
+  },
+  "/employee-portal-web/zh-Hans/docs/product-tech/technical-white-paper-dc6": {
+    "__comp": "17896441",
+    "content": "bbab1c28"
+  },
+  "/employee-portal-web/zh-Hans/docs/resource-center/growth-guide/industry-news-6ed": {
+    "__comp": "17896441",
+    "content": "630545b4"
+  },
+  "/employee-portal-web/zh-Hans/docs/resource-center/growth-guide/new-technology-e26": {
+    "__comp": "17896441",
+    "content": "0be268b2"
+  },
+  "/employee-portal-web/zh-Hans/docs/resource-center/growth-guide/training-course-456": {
+    "__comp": "17896441",
+    "content": "18b40e9e"
+  },
+  "/employee-portal-web/zh-Hans/docs/resource-center/resources-center/brand-7a7": {
+    "__comp": "17896441",
+    "content": "3ad1d166"
+  },
+  "/employee-portal-web/zh-Hans/docs/resource-center/resources-center/FAQ-756": {
+    "__comp": "17896441",
+    "content": "75c7acfb"
+  },
+  "/employee-portal-web/zh-Hans/docs/resource-center/welcome-kit/enviroment-5fe": {
+    "__comp": "17896441",
+    "content": "a80a2937"
+  },
+  "/employee-portal-web/zh-Hans/docs/resource-center/welcome-kit/HR-Reimbursement-18b": {
+    "__comp": "17896441",
+    "content": "6a3c321c"
+  },
+  "/employee-portal-web/zh-Hans/docs/resource-center/welcome-kit/stock-option-description-dfc": {
+    "__comp": "17896441",
+    "content": "4de104fd"
+  },
+  "/employee-portal-web/zh-Hans/-77e": {
     "__comp": "1df93b7f",
     "__context": {
       "plugin": "a7456010"

@@ -4,22 +4,34 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "favicon": "img/favicon.ico",
-  "url": "https://michaelMotionG.github.io",
-  "baseUrl": "/warehouseNotes/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "title": "Motion G",
+  "tagline": "AI are cool",
+  "favicon": "img/icon.png",
+  "staticDirectories": [
+    "static"
+  ],
+  "url": "https://motiong-io.github.io",
+  "baseUrl": "/employee-portal-web/zh-Hans/",
+  "organizationName": "motiong-io",
+  "projectName": "portal_website_docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "zh-Hans"
     ],
-    "path": "i18n",
-    "localeConfigs": {}
+    "localeConfigs": {
+      "en": {
+        "htmlLang": "en-GB",
+        "direction": "ltr"
+      },
+      "zh-Hans": {
+        "direction": "ltr"
+      }
+    },
+    "path": "i18n"
   },
   "presets": [
     [
@@ -27,7 +39,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/motiong-io/employee-portal-web/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
@@ -38,7 +50,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "editUrl": "https://github.com/motiong-io/employee-portal-web/tree/main/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -52,27 +64,23 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "我的网站Logo",
+        "src": "img/LOGO-standard.svg"
       },
       "items": [
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
+          "label": "教程"
         }
       ],
       "hideOnScroll": false
@@ -81,46 +89,38 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "文档",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "教程",
               "to": "/docs/intro"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "社区",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
+              "label": "Contact",
+              "href": "https://www.motiong.ai/company/contact-us"
             }
           ]
         },
         {
-          "title": "More",
+          "title": "更多",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
+              "label": "AI",
+              "href": "https://www.motiong.ai/"
             },
             {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "label": "Map",
+              "href": "https://www.google.com/maps/place/Motion+G/@1.2983473,103.7898541,3a,75y,134.54h,90t/data=!3m7!1e1!3m5!1sn9gorKap7TC2mbTNbr2XwQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3Dn9gorKap7TC2mbTNbr2XwQ%26yaw%3D134.54282!7i16384!8i8192!4m9!3m8!1s0x31da1b60f6466ea9:0x9ae0b0f63acd4124!8m2!3d1.2980841!4d103.7901215!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11vq233gmm?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "版权所有 © 2024 My Project, Inc. 使用Docusaurus构建。"
     },
     "prism": {
       "theme": {
@@ -367,9 +367,6 @@ export default {
   },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
   "customFields": {},
   "plugins": [],
   "themes": [],

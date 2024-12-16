@@ -4,22 +4,27 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const organizationName = "motiong-io";
+const projectName = "portal_website_docusaurus";
+
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Motion G',
+  tagline: 'AI are cool',
+  favicon: 'img/icon.png',
+  staticDirectories: ['static'],
 
   // Set the production url of your site here
-  // url: 'https://your-docusaurus-site.example.com',
-  url: 'https://michaelMotionG.github.io',
+  // url: 'https://www.motiong.net',
+  url: 'https://motiong-io.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/warehouseNotes/',
+  baseUrl: '/employee-portal-web/',
+  
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName,
+  projectName,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -29,7 +34,15 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','zh-Hans'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      'zh-Hans': {
+        direction: 'ltr',
+      },
+    },
   },
 
   presets: [
@@ -41,10 +54,8 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-            'https://github.com/michaelMotionG/warehouseNotes/tree/main/'
-            // "https://www.baidu.com"
+            //'https://github.com/${organizationName}/${projectName}/tree/main/',
+            'https://github.com/motiong-io/employee-portal-web/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -55,8 +66,8 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-            'https://github.com/michaelMotionG/warehouseNotes/tree/main/',
+            //'https://github.com/${organizationName}/${projectName}/tree/main/',
+            'https://github.com/motiong-io/employee-portal-web/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -73,24 +84,23 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/LOGO-standard.svg',
       },
       items: [
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {to: '/blog', label: 'Blog', position: 'left'},
       ],
     },
     footer: {
@@ -109,16 +119,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Contact',
+              href: 'https://www.motiong.ai/company/contact-us',
             },
           ],
         },
@@ -126,12 +128,12 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'AI',
+              href: 'https://www.motiong.ai/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Map',
+              href: 'https://www.google.com/maps/place/Motion+G/@1.2983473,103.7898541,3a,75y,134.54h,90t/data=!3m7!1e1!3m5!1sn9gorKap7TC2mbTNbr2XwQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3Dn9gorKap7TC2mbTNbr2XwQ%26yaw%3D134.54282!7i16384!8i8192!4m9!3m8!1s0x31da1b60f6466ea9:0x9ae0b0f63acd4124!8m2!3d1.2980841!4d103.7901215!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11vq233gmm?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D',
             },
           ],
         },
@@ -143,6 +145,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  
 };
 
 export default config;

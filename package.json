@@ -1,5 +1,5 @@
 {
-  "name": "my-website",
+  "name": "portal-website",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,21 +12,24 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "dev:docker": "docker build -t nextjs-docker . && docker run -p 3000:3000 nextjs-docker"
   },
   "dependencies": {
-    "@docusaurus/core": "3.6.3",
-    "@docusaurus/preset-classic": "3.6.3",
+    "@docusaurus/core": "3.6.1",
+    "@docusaurus/preset-classic": "3.6.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "file-loader": "^6.2.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.6.3",
-    "@docusaurus/tsconfig": "3.6.3",
-    "@docusaurus/types": "3.6.3",
+    "@docusaurus/module-type-aliases": "3.6.1",
+    "@docusaurus/tsconfig": "3.6.1",
+    "@docusaurus/types": "3.6.1",
     "typescript": "~5.6.2"
   },
   "browserslist": {

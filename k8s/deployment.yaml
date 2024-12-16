@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employee-portal-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: employee-portal-web
+  template:
+    metadata:
+      labels:
+        app: employee-portal-web
+    spec:
+      imagePullSecrets:
+      - name: motiong-registry-key
+      containers:
+      - name: employee-portal-web
+        image: motiongcloud.azurecr.io/employee-portal-web:IMAGE_TAG
+        ports:
+        - containerPort: 3000

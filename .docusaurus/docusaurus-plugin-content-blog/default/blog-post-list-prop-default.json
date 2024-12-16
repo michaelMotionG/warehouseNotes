@@ -1,27 +1,27 @@
 {
-  "title": "Recent posts",
+  "title": "最近文章",
   "items": [
     {
       "title": "Welcome",
-      "permalink": "/warehouseNotes/blog/welcome",
+      "permalink": "/employee-portal-web/zh-Hans/blog/welcome",
       "unlisted": false,
       "date": "2021-08-26T00:00:00.000Z"
     },
     {
       "title": "MDX Blog Post",
-      "permalink": "/warehouseNotes/blog/mdx-blog-post",
+      "permalink": "/employee-portal-web/zh-Hans/blog/mdx-blog-post",
       "unlisted": false,
       "date": "2021-08-01T00:00:00.000Z"
     },
     {
       "title": "Long Blog Post",
-      "permalink": "/warehouseNotes/blog/long-blog-post",
+      "permalink": "/employee-portal-web/zh-Hans/blog/long-blog-post",
       "unlisted": false,
       "date": "2019-05-29T00:00:00.000Z"
     },
     {
       "title": "First Blog Post",
-      "permalink": "/warehouseNotes/blog/first-blog-post",
+      "permalink": "/employee-portal-web/zh-Hans/blog/first-blog-post",
       "unlisted": false,
       "date": "2019-05-28T00:00:00.000Z"
     }

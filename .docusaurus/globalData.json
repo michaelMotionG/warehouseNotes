@@ -1,68 +1,258 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/warehouseNotes/docs",
+      "path": "/employee-portal-web/zh-Hans/docs",
       "versions": [
         {
           "name": "current",
-          "label": "Next",
+          "label": "当前",
           "isLast": true,
-          "path": "/warehouseNotes/docs",
+          "path": "/employee-portal-web/zh-Hans/docs",
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "collab-center/OAsystem",
+              "path": "/employee-portal-web/zh-Hans/docs/collab-center/OAsystem",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "company-information/BSC",
+              "path": "/employee-portal-web/zh-Hans/docs/company-information/BSC",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "company-information/company-culture",
+              "path": "/employee-portal-web/zh-Hans/docs/company-information/company-culture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "company-information/introduction",
+              "path": "/employee-portal-web/zh-Hans/docs/company-information/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "company-information/office-tour",
+              "path": "/employee-portal-web/zh-Hans/docs/company-information/office-tour",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "company-information/organizational-structure",
+              "path": "/employee-portal-web/zh-Hans/docs/company-information/organizational-structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home/notication",
+              "path": "/employee-portal-web/zh-Hans/docs/home/notication",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home/ownVE",
+              "path": "/employee-portal-web/zh-Hans/docs/home/ownVE",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home/privateVE",
+              "path": "/employee-portal-web/zh-Hans/docs/home/privateVE",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home/pubilcVE",
+              "path": "/employee-portal-web/zh-Hans/docs/home/pubilcVE",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inner-application/BMS",
+              "path": "/employee-portal-web/zh-Hans/docs/inner-application/BMS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inner-application/employee-portal-management-system",
+              "path": "/employee-portal-web/zh-Hans/docs/inner-application/employee-portal-management-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inner-application/OA-system",
+              "path": "/employee-portal-web/zh-Hans/docs/inner-application/OA-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inner-application/Teams",
+              "path": "/employee-portal-web/zh-Hans/docs/inner-application/Teams",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
-              "path": "/warehouseNotes/docs/intro",
+              "path": "/employee-portal-web/zh-Hans/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/warehouseNotes/docs/tutorial-basics/congratulations",
+              "id": "process-guidelines/Finance",
+              "path": "/employee-portal-web/zh-Hans/docs/process-guidelines/Finance",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/warehouseNotes/docs/tutorial-basics/create-a-blog-post",
+              "id": "process-guidelines/HR",
+              "path": "/employee-portal-web/zh-Hans/docs/process-guidelines/HR",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/warehouseNotes/docs/tutorial-basics/create-a-document",
+              "id": "process-guidelines/IT",
+              "path": "/employee-portal-web/zh-Hans/docs/process-guidelines/IT",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/warehouseNotes/docs/tutorial-basics/create-a-page",
+              "id": "process-guidelines/process-description",
+              "path": "/employee-portal-web/zh-Hans/docs/process-guidelines/process-description",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/warehouseNotes/docs/tutorial-basics/deploy-your-site",
+              "id": "process-guidelines/safety-compliance",
+              "path": "/employee-portal-web/zh-Hans/docs/process-guidelines/safety-compliance",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/warehouseNotes/docs/tutorial-basics/markdown-features",
+              "id": "process-guidelines/template-form",
+              "path": "/employee-portal-web/zh-Hans/docs/process-guidelines/template-form",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/warehouseNotes/docs/tutorial-extras/manage-docs-versions",
+              "id": "prodection-zone/monitor",
+              "path": "/employee-portal-web/zh-Hans/docs/prodection-zone/monitor",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/warehouseNotes/docs/tutorial-extras/translate-your-site",
+              "id": "prodection-zone/MotionG",
+              "path": "/employee-portal-web/zh-Hans/docs/prodection-zone/MotionG",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/warehouseNotes/docs/category/tutorial---basics",
+              "id": "prodection-zone/pay",
+              "path": "/employee-portal-web/zh-Hans/docs/prodection-zone/pay",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/warehouseNotes/docs/category/tutorial---extras",
+              "id": "prodection-zone/resik-control",
+              "path": "/employee-portal-web/zh-Hans/docs/prodection-zone/resik-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product-tech/AI-tools",
+              "path": "/employee-portal-web/zh-Hans/docs/product-tech/AI-tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product-tech/developer-support",
+              "path": "/employee-portal-web/zh-Hans/docs/product-tech/developer-support",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product-tech/MVP",
+              "path": "/employee-portal-web/zh-Hans/docs/product-tech/MVP",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product-tech/product-demo",
+              "path": "/employee-portal-web/zh-Hans/docs/product-tech/product-demo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "product-tech/technical-white-paper",
+              "path": "/employee-portal-web/zh-Hans/docs/product-tech/technical-white-paper",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-center/growth-guide/industry-news",
+              "path": "/employee-portal-web/zh-Hans/docs/resource-center/growth-guide/industry-news",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-center/growth-guide/new-technology",
+              "path": "/employee-portal-web/zh-Hans/docs/resource-center/growth-guide/new-technology",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-center/growth-guide/training-course",
+              "path": "/employee-portal-web/zh-Hans/docs/resource-center/growth-guide/training-course",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-center/resources-center/brand",
+              "path": "/employee-portal-web/zh-Hans/docs/resource-center/resources-center/brand",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-center/resources-center/FAQ",
+              "path": "/employee-portal-web/zh-Hans/docs/resource-center/resources-center/FAQ",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-center/welcome-kit/enviroment",
+              "path": "/employee-portal-web/zh-Hans/docs/resource-center/welcome-kit/enviroment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-center/welcome-kit/HR-Reimbursement",
+              "path": "/employee-portal-web/zh-Hans/docs/resource-center/welcome-kit/HR-Reimbursement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-center/welcome-kit/stock-option-description",
+              "path": "/employee-portal-web/zh-Hans/docs/resource-center/welcome-kit/stock-option-description",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/lunchpad",
+              "path": "/employee-portal-web/zh-Hans/docs/category/lunchpad",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/everything-about-motion-g",
+              "path": "/employee-portal-web/zh-Hans/docs/category/everything-about-motion-g",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/future-lab",
+              "path": "/employee-portal-web/zh-Hans/docs/category/future-lab",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/brain-hive",
+              "path": "/employee-portal-web/zh-Hans/docs/category/brain-hive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/resource-center",
+              "path": "/employee-portal-web/zh-Hans/docs/category/resource-center",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/growth-guide",
+              "path": "/employee-portal-web/zh-Hans/docs/category/growth-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/welcome-kit",
+              "path": "/employee-portal-web/zh-Hans/docs/category/welcome-kit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/collab-center",
+              "path": "/employee-portal-web/zh-Hans/docs/category/collab-center",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/work-navigator",
+              "path": "/employee-portal-web/zh-Hans/docs/category/work-navigator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/inner-application",
+              "path": "/employee-portal-web/zh-Hans/docs/category/inner-application",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/production-zone",
+              "path": "/employee-portal-web/zh-Hans/docs/category/production-zone",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -70,7 +260,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/warehouseNotes/docs/intro",
+                "path": "/employee-portal-web/zh-Hans/docs/intro",
                 "label": "intro"
               }
             }
