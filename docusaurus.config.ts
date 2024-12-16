@@ -15,10 +15,10 @@ const config: Config = {
 
   // Set the production url of your site here
   // url: 'https://www.motiong.net',
-  url: 'https://motiong-io.github.io',
+  url: 'https://michaelMotionG.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/employee-portal-web/',
+  baseUrl: '/warehouseNotes/',
   
 
   // GitHub pages deployment config.
@@ -55,7 +55,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             //'https://github.com/${organizationName}/${projectName}/tree/main/',
-            'https://github.com/motiong-io/employee-portal-web/tree/main/',
+            'https://github.com/michaelMotionG/warehouseNotes/tree/docusaurusO/',
         },
         blog: {
           showReadingTime: true,
@@ -67,7 +67,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             //'https://github.com/${organizationName}/${projectName}/tree/main/',
-            'https://github.com/motiong-io/employee-portal-web/tree/main/',
+            'https://github.com/michaelMotionG/warehouseNotes/tree/docusaurusO/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
