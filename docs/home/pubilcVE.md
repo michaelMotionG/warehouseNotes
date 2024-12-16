@@ -5,8 +5,8 @@ title: Public VE
 
 # Public VE
 
-[官网](https://motionG.net)
-[示例](https://www.youtube.com)
+[official website](https://motionG.net)
+[example](https://www.youtube.com)
 
 > **Speaker: Zhang San**
 > today our main goal is to discuss the progress of the project and the next steps of the plan. In the last meeting, we set our goals, now let's take a look at our > progress.
