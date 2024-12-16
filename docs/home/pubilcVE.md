@@ -8,8 +8,9 @@ title: Public VE
 [官网](https://motionG.net)
 [示例](https://www.youtube.com)
 
-> **发言者：张三**
-> 今天我们的主要目标是讨论项目的进展情况以及下一步的计划。在上次会议中，我们确定了目标，现在来看看我们的进展。
+> **Speaker: Zhang San**
+> today our main goal is to discuss the progress of the project and the next steps of the plan. In the last meeting, we set our goals, now let's take a look at our > progress.
 >
-> **发言者：李四**
-> 项目进展顺利，我们已经完成了第一阶段的所有任务。接下来，我们需要讨论资源分配的问题。
+> **Speaker: Li Si**
+> The project is progressing smoothly, and we have completed all the tasks in the first phase. Next, we need to discuss the issue of resource allocation.
+>
