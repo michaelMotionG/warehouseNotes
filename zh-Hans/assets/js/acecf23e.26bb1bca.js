@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportal_website=self.webpackChunkportal_website||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/employee-portal-web/zh-Hans/blog","blogTitle":"Blog","authorsListPath":"/employee-portal-web/zh-Hans/blog/authors"}')}}]);
