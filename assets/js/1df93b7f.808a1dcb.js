@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportal_website=self.webpackChunkportal_website||[]).push([[4583],{8198:(t,e,s)=>{s.r(e),s.d(e,{default:()=>a});var r=s(4586);s(1107),s(1312);var n=s(6347),o=s(4848);function a(){const{siteConfig:t}=(0,r.A)();return(0,o.jsx)(n.rd,{to:"/docs/intro"})}}}]);
